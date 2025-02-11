@@ -1,0 +1,31 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/mbpro-2015/Library/Developer/Xcode/DerivedData/EkycIOS-ghllxtkzuuugsxbidhwwygwieulr/Build/Intermediates.noindex/ArchiveIntermediates/EkycIOS/InstallationBuildProductsLocation/Library/Frameworks/EkycIOS.framework/EkycIOS'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x303DF, size: 0x8, addend: 0x0, symName: _EkycIOSVersionString, symObjAddr: 0x0, symBinAddr: 0xEF0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x30414, size: 0x8, addend: 0x0, symName: _EkycIOSVersionNumber, symObjAddr: 0x28, symBinAddr: 0xF18, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x30451, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV2idSSvg', symObjAddr: 0x0, symBinAddr: 0xAF0, symSize: 0x30 }
+  - { offsetInCU: 0x4B, offset: 0x30475, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV7defaultACvpZ.0', symObjAddr: 0x20A0, symBinAddr: 0x2008, symSize: 0x0 }
+  - { offsetInCU: 0x62, offset: 0x3048C, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV7defaultACvpZ.1', symObjAddr: 0x20A8, symBinAddr: 0x2010, symSize: 0x0 }
+  - { offsetInCU: 0x6D, offset: 0x30497, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV7defaultACvpZ.2', symObjAddr: 0x20B0, symBinAddr: 0x2018, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x304B2, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV7defaultACvpZ.3', symObjAddr: 0x20B8, symBinAddr: 0x2020, symSize: 0x0 }
+  - { offsetInCU: 0x197, offset: 0x305C1, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV7default_WZ', symObjAddr: 0x110, symBinAddr: 0xC00, symSize: 0x40 }
+  - { offsetInCU: 0x1D8, offset: 0x30602, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwCP', symObjAddr: 0x1D0, symBinAddr: 0xCC0, symSize: 0x30 }
+  - { offsetInCU: 0x1EC, offset: 0x30616, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwxx', symObjAddr: 0x200, symBinAddr: 0xCF0, symSize: 0x30 }
+  - { offsetInCU: 0x200, offset: 0x3062A, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwcp', symObjAddr: 0x230, symBinAddr: 0xD20, symSize: 0x40 }
+  - { offsetInCU: 0x214, offset: 0x3063E, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwca', symObjAddr: 0x270, symBinAddr: 0xD60, symSize: 0x60 }
+  - { offsetInCU: 0x228, offset: 0x30652, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x2D0, symBinAddr: 0xDC0, symSize: 0x20 }
+  - { offsetInCU: 0x23C, offset: 0x30666, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwta', symObjAddr: 0x2F0, symBinAddr: 0xDE0, symSize: 0x50 }
+  - { offsetInCU: 0x250, offset: 0x3067A, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwet', symObjAddr: 0x340, symBinAddr: 0xE30, symSize: 0x40 }
+  - { offsetInCU: 0x264, offset: 0x3068E, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVwst', symObjAddr: 0x380, symBinAddr: 0xE70, symSize: 0x50 }
+  - { offsetInCU: 0x278, offset: 0x306A2, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpVMa', symObjAddr: 0x3D0, symBinAddr: 0xEC0, symSize: 0xA }
+  - { offsetInCU: 0x30D, offset: 0x30737, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV2idSSvg', symObjAddr: 0x0, symBinAddr: 0xAF0, symSize: 0x30 }
+  - { offsetInCU: 0x327, offset: 0x30751, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV2idSSvs', symObjAddr: 0x30, symBinAddr: 0xB20, symSize: 0x30 }
+  - { offsetInCU: 0x35B, offset: 0x30785, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV2idSSvM', symObjAddr: 0x60, symBinAddr: 0xB50, symSize: 0x10 }
+  - { offsetInCU: 0x36F, offset: 0x30799, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV2idSSvM.resume.0', symObjAddr: 0x70, symBinAddr: 0xB60, symSize: 0x10 }
+  - { offsetInCU: 0x390, offset: 0x307BA, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV8fullNameSSvg', symObjAddr: 0x80, symBinAddr: 0xB70, symSize: 0x30 }
+  - { offsetInCU: 0x3A4, offset: 0x307CE, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV8fullNameSSvs', symObjAddr: 0xB0, symBinAddr: 0xBA0, symSize: 0x30 }
+  - { offsetInCU: 0x3D8, offset: 0x30802, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV8fullNameSSvM', symObjAddr: 0xE0, symBinAddr: 0xBD0, symSize: 0x20 }
+  - { offsetInCU: 0x3FC, offset: 0x30826, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV8fullNameSSvM.resume.0', symObjAddr: 0x100, symBinAddr: 0xBF0, symSize: 0x10 }
+  - { offsetInCU: 0x436, offset: 0x30860, size: 0x8, addend: 0x0, symName: '_$s7EkycIOS3KtpV7defaultACvgZ', symObjAddr: 0x150, symBinAddr: 0xC40, symSize: 0x80 }
+...

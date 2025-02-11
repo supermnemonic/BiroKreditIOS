@@ -1,0 +1,24 @@
+{
+  "originHash" : "081d817ddeed588a06336f300a5a8573ffaa18cc039b97a7b2d43a0e1abef8c6",
+  "pins" : [
+    {
+      "identity" : "skorreportios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supermnemonic/SkorReportIOS",
+      "state" : {
+        "revision" : "9e4b7e025e6325ac0d59370dd657060e8546b01a",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "ssdatetimepicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimformSolutionsPvtLtd/SSDateTimePicker",
+      "state" : {
+        "revision" : "286fbbfd3b33e809f66dff57258cb6b3c507b2af",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
