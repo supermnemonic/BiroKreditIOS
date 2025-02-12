@@ -1,6 +1,0 @@
-framework module EkycIOS {
-  umbrella header "EkycIOS.h"
-  export *
-
-  module * { export * }
-}

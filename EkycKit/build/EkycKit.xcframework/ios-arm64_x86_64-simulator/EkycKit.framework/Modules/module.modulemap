@@ -1,0 +1,6 @@
+framework module EkycKit {
+  umbrella header "EkycKit.h"
+  export *
+
+  module * { export * }
+}

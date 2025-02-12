@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C92647442D5B8FC800967686 /* SkorReportIOS in Frameworks */ = {isa = PBXBuildFile; productRef = C92647432D5B8FC800967686 /* SkorReportIOS */; };
-		C979029F2D5AF025006C8341 /* EkycIOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C979029C2D5AEFDF006C8341 /* EkycIOS.xcframework */; };
-		C97902A02D5AF025006C8341 /* EkycIOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C979029C2D5AEFDF006C8341 /* EkycIOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C91C31602D5CE9340020CFDC /* SkorReportIOS in Frameworks */ = {isa = PBXBuildFile; productRef = C91C315F2D5CE9340020CFDC /* SkorReportIOS */; };
+		C91C31622D5CE9410020CFDC /* EkycKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C31612D5CE9410020CFDC /* EkycKit.framework */; };
+		C91C31632D5CE9410020CFDC /* EkycKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C91C31612D5CE9410020CFDC /* EkycKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C9D8A8E22D5A302F004C8646 /* BiroKreditIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8A8E12D5A302F004C8646 /* BiroKreditIOSApp.swift */; };
 		C9D8A8E42D5A302F004C8646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8A8E32D5A302F004C8646 /* ContentView.swift */; };
 		C9D8A8E62D5A3032004C8646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D8A8E52D5A3032004C8646 /* Assets.xcassets */; };
@@ -17,13 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C97902A12D5AF025006C8341 /* Embed Frameworks */ = {
+		C91C31642D5CE9410020CFDC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C97902A02D5AF025006C8341 /* EkycIOS.xcframework in Embed Frameworks */,
+				C91C31632D5CE9410020CFDC /* EkycKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,8 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C92647462D5BA68800967686 /* Asdad */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Asdad; sourceTree = "<group>"; };
-		C979029C2D5AEFDF006C8341 /* EkycIOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EkycIOS.xcframework; path = EkycIOS/build/EkycIOS.xcframework; sourceTree = "<group>"; };
+		C91C30972D5C901E0020CFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C91C31612D5CE9410020CFDC /* EkycKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EkycKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D8A8DE2D5A302F004C8646 /* BiroKreditIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiroKreditIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D8A8E12D5A302F004C8646 /* BiroKreditIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiroKreditIOSApp.swift; sourceTree = "<group>"; };
 		C9D8A8E32D5A302F004C8646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C979029F2D5AF025006C8341 /* EkycIOS.xcframework in Frameworks */,
-				C92647442D5B8FC800967686 /* SkorReportIOS in Frameworks */,
+				C91C31602D5CE9340020CFDC /* SkorReportIOS in Frameworks */,
+				C91C31622D5CE9410020CFDC /* EkycKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +56,9 @@
 		C9D8A8D52D5A302F004C8646 = {
 			isa = PBXGroup;
 			children = (
-				C92647462D5BA68800967686 /* Asdad */,
 				C9D8A8E02D5A302F004C8646 /* BiroKreditIOS */,
-				C9D8A8DF2D5A302F004C8646 /* Products */,
 				C9D8A91F2D5A30DE004C8646 /* Frameworks */,
+				C9D8A8DF2D5A302F004C8646 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +73,7 @@
 		C9D8A8E02D5A302F004C8646 /* BiroKreditIOS */ = {
 			isa = PBXGroup;
 			children = (
+				C91C30972D5C901E0020CFDC /* Info.plist */,
 				C9D8A8E12D5A302F004C8646 /* BiroKreditIOSApp.swift */,
 				C9D8A8E32D5A302F004C8646 /* ContentView.swift */,
 				C9D8A8E52D5A3032004C8646 /* Assets.xcassets */,
@@ -93,7 +93,7 @@
 		C9D8A91F2D5A30DE004C8646 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C979029C2D5AEFDF006C8341 /* EkycIOS.xcframework */,
+				C91C31612D5CE9410020CFDC /* EkycKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 				C9D8A8DA2D5A302F004C8646 /* Sources */,
 				C9D8A8DB2D5A302F004C8646 /* Frameworks */,
 				C9D8A8DC2D5A302F004C8646 /* Resources */,
-				C97902A12D5AF025006C8341 /* Embed Frameworks */,
+				C91C31642D5CE9410020CFDC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -116,7 +116,7 @@
 			);
 			name = BiroKreditIOS;
 			packageProductDependencies = (
-				C92647432D5B8FC800967686 /* SkorReportIOS */,
+				C91C315F2D5CE9340020CFDC /* SkorReportIOS */,
 			);
 			productName = BiroKreditIOS;
 			productReference = C9D8A8DE2D5A302F004C8646 /* BiroKreditIOS.app */;
@@ -147,7 +147,7 @@
 			);
 			mainGroup = C9D8A8D52D5A302F004C8646;
 			packageReferences = (
-				C92647422D5B8FC800967686 /* XCRemoteSwiftPackageReference "SkorReportIOS" */,
+				C91C312F2D5CE6FE0020CFDC /* XCLocalSwiftPackageReference "../SkorReportIOS" */,
 			);
 			productRefGroup = C9D8A8DF2D5A302F004C8646 /* Products */;
 			projectDirPath = "";
@@ -235,7 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -292,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -307,11 +307,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BiroKreditIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiroKreditIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +327,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.BiroKreditIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,11 +339,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BiroKreditIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiroKreditIOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -354,6 +359,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.BiroKreditIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,21 +389,17 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		C92647422D5B8FC800967686 /* XCRemoteSwiftPackageReference "SkorReportIOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/supermnemonic/SkorReportIOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		C91C312F2D5CE6FE0020CFDC /* XCLocalSwiftPackageReference "../SkorReportIOS" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SkorReportIOS;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C92647432D5B8FC800967686 /* SkorReportIOS */ = {
+		C91C315F2D5CE9340020CFDC /* SkorReportIOS */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C92647422D5B8FC800967686 /* XCRemoteSwiftPackageReference "SkorReportIOS" */;
+			package = C91C312F2D5CE6FE0020CFDC /* XCLocalSwiftPackageReference "../SkorReportIOS" */;
 			productName = SkorReportIOS;
 		};
 /* End XCSwiftPackageProductDependency section */
