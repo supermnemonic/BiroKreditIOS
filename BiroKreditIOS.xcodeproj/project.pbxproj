@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91991FA2D5DBC4A006AF4B9 /* EkycKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91991F92D5DBC4A006AF4B9 /* EkycKit.framework */; };
+		C91991FB2D5DBC4A006AF4B9 /* EkycKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C91991F92D5DBC4A006AF4B9 /* EkycKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C91C31602D5CE9340020CFDC /* SkorReportIOS in Frameworks */ = {isa = PBXBuildFile; productRef = C91C315F2D5CE9340020CFDC /* SkorReportIOS */; };
-		C91C31622D5CE9410020CFDC /* EkycKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91C31612D5CE9410020CFDC /* EkycKit.framework */; };
-		C91C31632D5CE9410020CFDC /* EkycKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C91C31612D5CE9410020CFDC /* EkycKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C9D8A8E22D5A302F004C8646 /* BiroKreditIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8A8E12D5A302F004C8646 /* BiroKreditIOSApp.swift */; };
 		C9D8A8E42D5A302F004C8646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8A8E32D5A302F004C8646 /* ContentView.swift */; };
 		C9D8A8E62D5A3032004C8646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D8A8E52D5A3032004C8646 /* Assets.xcassets */; };
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C91C31632D5CE9410020CFDC /* EkycKit.framework in Embed Frameworks */,
+				C91991FB2D5DBC4A006AF4B9 /* EkycKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,8 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C91991F92D5DBC4A006AF4B9 /* EkycKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EkycKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91C30972D5C901E0020CFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C91C31612D5CE9410020CFDC /* EkycKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EkycKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D8A8DE2D5A302F004C8646 /* BiroKreditIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiroKreditIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D8A8E12D5A302F004C8646 /* BiroKreditIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiroKreditIOSApp.swift; sourceTree = "<group>"; };
 		C9D8A8E32D5A302F004C8646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91C31602D5CE9340020CFDC /* SkorReportIOS in Frameworks */,
-				C91C31622D5CE9410020CFDC /* EkycKit.framework in Frameworks */,
+				C91991FA2D5DBC4A006AF4B9 /* EkycKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 		C9D8A91F2D5A30DE004C8646 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C91C31612D5CE9410020CFDC /* EkycKit.framework */,
+				C91991F92D5DBC4A006AF4B9 /* EkycKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -307,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BiroKreditIOS/Preview Content\"";
@@ -339,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BiroKreditIOS/Preview Content\"";
